@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/rss_row_rect"
+    android:padding="10dp"
+    >
+
+    <be.ehb.rssfeeds.customviews.NonClickableWebview
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:id="@+id/wv_description"
+        android:clickable="false"
+        android:layout_below="@+id/tv_title"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="@android:color/holo_blue_dark"
+        android:id="@+id/tv_title"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/wv_description"
+        android:layout_alignStart="@+id/wv_description"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>

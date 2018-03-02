@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">RSSFeeds</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="txt_rss_title_tv">Microelectronics and nanotechnology</string>
+</resources>
